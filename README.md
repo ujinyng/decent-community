@@ -44,7 +44,7 @@
 ```cleos push action mem2 addpoll '["mem2","newmember"]' -p mem2@active –j –d```
 ```cleos push action mem2 addpollopt '["newmember","agree"]' -p mem2@active```
 ```cleos push action mem2 addpollopt '["newmember","disagree"]' -p mem2@active```
-```cleos push action mem2 status '["newmember"]' -p mem2@active –j -d   
+```cleos push action mem2 status '["newmember"]' -p mem2@active –j -d```
 
 #### 투표 참여
 

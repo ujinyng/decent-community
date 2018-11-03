@@ -1,6 +1,7 @@
 #### os : ubuntu 16.04 
 #### nodeos version : v1.2.0
-eosio
+eosio 를 이용한 토큰 발행 및 투표 프로그램
+
 ## 실행 방법
 
 ### 1. eos dependency, eosio 설치 및 vote contract 배포

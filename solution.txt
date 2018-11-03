@@ -1,0 +1,8 @@
+solution 기록 메모
+
+http-server-address = 127.0.0.1:8888 
+의 port를 nodeos 설정 파일과 다른 걸로 변경. 8889 등
+두 설정 파일 모두 http-validate-host=false 로변경
+(1.0.9 부터는 그래야지 cleos로 계정생성시 에러가 발생하지 않음)
+
+

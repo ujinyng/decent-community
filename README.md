@@ -1,7 +1,7 @@
 #### os : ubuntu 16.04 
 #### nodeos version : v1.2.0
-
-## 실행방법
+eosio
+## 실행 방법
 
 ### 1. eos dependency, eosio 설치 및 vote contract 배포
 
@@ -42,8 +42,11 @@
 #### 투표 생성
 
 ```cleos push action mem2 addpoll '["mem2","newmember"]' -p mem2@active –j –d```
+
 ```cleos push action mem2 addpollopt '["newmember","agree"]' -p mem2@active```
+
 ```cleos push action mem2 addpollopt '["newmember","disagree"]' -p mem2@active```
+
 ```cleos push action mem2 status '["newmember"]' -p mem2@active –j -d```
 
 #### 투표 참여

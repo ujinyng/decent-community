@@ -1,5 +1,5 @@
-## os : ubuntu 16.04 
-## nodeos version : v1.2.0
+#### os : ubuntu 16.04 
+#### nodeos version : v1.2.0
 
 ## 실행방법
 

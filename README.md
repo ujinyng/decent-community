@@ -22,7 +22,9 @@
 #### 토큰 발행 및 배분
 
 ```cleos push action eosio.token create '["studygroup1","100000000 BCT"]' -p eosio.token@active```
+
 ```cleos push action eosio.token issue '["studygroup1", "150000 BCT", "memo"]' -p studygroup1@active```
+
 ```cleos push action eosio.token transfer '["studygroup1", "mem1", "30000 BCT",""]' -p studygroup1@active``` 
 
 #### 토큰 잔액 확인

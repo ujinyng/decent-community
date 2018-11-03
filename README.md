@@ -10,7 +10,7 @@ eosio 를 이용한 토큰 발행 및 투표 프로그램
 
 ```sh init.sh```
 
-#### eosio, eosio.token, eosio.vote 계정 생성 명령어 포함
+eosio, eosio.token, eosio.vote 계정 생성 명령어 포함
 
 ### 2. Nodeos 시작 및 커뮤니티 생성
 
